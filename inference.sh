@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python inference_magicapture.py --lora_path output --pretrained_model_name runwayml/stable-diffusion-v1-5 --step 50 --output_folder_prefix outputtest --prompt "A photo of a <sks> person with style <style1>" --seed 124534
